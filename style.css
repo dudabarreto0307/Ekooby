@@ -1,95 +1,13 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root {
-    --verde-medio: #9CC431;
-    --verde-fosco: #9EC867;
-    --verde-escuro: #43552C;
-    --roxo: #A15BB2;
-    --branco: #FFFFFF;
-    --fundo-site: #E5E5E5;
-}
-
-.container-grid {
-    width: 80vw;
+.espacolaterais {
     max-width: 1400px;
+    width: 80%;
     margin: 0 auto;
-}
-
-body {
-    overflow-x: hidden;
-    background-color: var(--fundo-site);
-}
-
-.titulo {
-    display: flex;
-    font-family: "Recursive", sans-linear-bold;
-    font-weight: 600;
-    font-size: 35px;
-}
-
-.titulo h2 {
-    color: var(--branco);
-    margin-bottom: 0;
-    background-color: var(--roxo-pixelV);
-    border-radius: 20px;
-    padding: 10px 18px;
-}
-
-.banner{
-    background-image: url(./img/logo\ positivo.svg);
-    height: 120vh;
-    background-repeat: no-repeat;
-    background-position: 0 -10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-header{
-    height: 165px;
-}
-
-header img{
-    width: 234px;
-}
-
-header .container-grid{
-    height: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu {
-    max-width: 700px;
-    width: 70%;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu a:hover {
-    text-decoration-color: var(--verde-PixelV);
-}
-
-.conteudo-banner img {
-    max-width: 380px;
-    width: 50%;
-} */
-
-
-
-/* Reset Básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho do elemento */
 }
 
 /* Variáveis CSS */
@@ -97,179 +15,207 @@ header .container-grid{
     --verde-medio: #9CC431;
     --verde-fosco: #9EC867;
     --verde-escuro: #43552C;
-    --roxo: #A15BB2; /* Esta é a variável original para o roxo */
-    --roxo-pixelV: #A15BB2; /* Mantive esta, caso seja uma tonalidade específica ou para evitar erros de digitação */
-    --verde-pixelV: #9CC431; /* Criado com base no verde-medio para o hover do menu */
+    --roxo: #A15BB2;
+    --roxo-pixelV: #A15BB2;
+    --verde-pixelV: #9CC431;
     --branco: #FFFFFF;
     --fundo-site: #E5E5E5;
-    --texto-escuro: #333; /* Adicionado para textos padrão */
+    --texto-escuro: #333;
 }
 
 /* Estilos Globais do Corpo */
 body {
-    overflow-x: hidden; /* Evita barra de rolagem horizontal indesejada */
+    overflow-x: hidden;
+    /* Evita barra de rolagem horizontal indesejada */
     background-color: var(--fundo-site);
-    font-family: "Recursive"; /* Fonte padrão, considere importar "Recursive" se for usada */
-    color: var(--texto-escuro); /* Cor de texto padrão */
+    font-family: "Recursive";
+    color: var(--texto-escuro);
 }
 
-/* Contêiner de Grid Genérico para centralizar conteúdo */
-/* Este é o `.container-grid` genérico que envolve o conteúdo principal */
-.container-grid {
-    width: 80vw;
-    max-width: 1400px;
-    margin: 0 auto; /* Centraliza o contêiner */
+/* header ----------------------- */
+
+header img {
+    width: 253px;
 }
 
-/* --- Cabeçalho Principal (main-header) --- */
-.main-header {
-    /* O background-image do banner principal (que você tinha no .banner) não faz sentido aqui. */
-    /* Este header será apenas a barra de navegação no topo. */
-    height: 165px; /* Altura do cabeçalho */
-    padding: 20px 0; /* Padding superior e inferior para espaçamento */
-    background-color: var(--branco); /* Fundo claro para o header */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+header {
+    height: 125px;
 }
 
-.header-container-grid { /* Usando a nova classe para o container dentro do header */
-    height: 100%; /* Garante que o contêiner interno preencha a altura do header */
+header.espacolaterais {
     display: flex;
-    justify-content: space-between; /* Espaça logo, menu e carrinho */
-    align-items: center; /* Alinha verticalmente no centro */
-}
-
-.logo-link img { /* Estilo para a imagem do logo dentro do link */
-    width: 234px;
-    height: auto; /* Mantém a proporção */
-}
-
-/* Navegação Principal (main-nav) */
-.main-nav ul {
-    list-style: none; /* Remove os marcadores de lista */
-    display: flex;
-    gap: 30px; /* Espaço entre os itens do menu */
-    margin: 0; /* Remove margin padrão da ul */
-    padding: 0; /* Remove padding padrão da ul */
-}
-
-.main-nav a {
-    text-decoration: none; /* Remove sublinhado padrão dos links */
-    color: var(--verde-escuro); /* Cor do texto dos links */
-    font-weight: 500;
-    font-size: 1.1em;
-    transition: color 0.3s ease; /* Transição suave na cor */
-
-     /* width: 300px;
-    margin: 20px;
-    padding: 40px 20px;
-    border-radius: 40px;
-    background-color: #A15BB2;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
-    text-align: center; */
-}
-
-.main-nav a:hover {
-    color: var(--verde-pixelV); /* Cor de hover para os links */
-}
-
-/* .main-nav{
-    width: 300px;
-    margin: 20px;
-    padding: 40px 20px;
-    border-radius: 40px;
-    background-color: #A15BB2;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
-    text-align: center;
-} */
-
-/* Ícone do Carrinho */
-.cart-icon a {
-    font-size: 2em; /* Tamanho do ícone do carrinho */
-    color: var(--verde-escuro); /* Cor do ícone */
-    transition: color 0.3s ease;
-}
-
-.cart-icon a:hover {
-    color: var(--roxo); /* Cor de hover para o carrinho */
-}
-
-/* --- Seção do Banner Principal (hero-banner) --- */
-.banner { /* Nova classe para a seção do banner principal */
-    position: relative; /* Necessário para posicionar elementos dentro dela */
-    width: 100%;
-    overflow: hidden; /* Garante que a imagem não transborde */
-}
-
-.banner img {
-    width: 100%; /* A imagem preenche a largura da seção */
-    height: auto; /* Mantém a proporção */
-    display: block; /* Remove espaço extra abaixo da imagem */
-    /* Se precisar de um efeito de parallax ou background-image aqui, o CSS muda. */
-    /* Para uma imagem simples, usar <img> é o mais semântico. */
-}
-
-.banner-overlay { /* Seção para sobrepor conteúdo no banner */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    /* Exemplo: background-color: rgba(0,0,0,0.3); */
-    /* Estilos para texto ou botões que você adicionar aqui */
+    justify-content: space-between;
 }
 
-/* --- Seção "Sobre Nossos Produtos" --- */
-.sobre-nossos-produtos {
-    padding: 60px 0; /* Espaçamento interno */
-    text-align: center; /* Centraliza o título e os cards */
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.titulo.container { /* Contêiner para o título da seção */
-    margin-bottom: 40px; /* Espaço abaixo do título */
-    display: flex; /* Para centralizar o H2 */
-    justify-content: center; /* Centraliza o H2 */
+.menu a {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-decoration: underline transparent;
 }
 
-.titulo-container h2 { /* Estilo do título "Sobre Nossos Produtos" */
-    font-family: "Recursive", sans-serif; /* Usando a fonte que você definiu no titulo */
-    font-weight: 600;
-    font-size: 35px;
-    color: var(--branco);
-   }
+.banner {
+    background-image: url(./img/banner\ principal.png);
+    height: 120vh;
+    font-size: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.cart-icon a {
+    color: #FFFFFF;
+}
 
 #card-1 {
     width: 300px;
+    height: 200px;
     margin: 20px;
     padding: 40px 20px;
     border-radius: 40px;
-    background-color: #A15BB2;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
-    text-align: center;
-    flex-direction: column;
-   }
 
-#card-2{
-    width: 300px;
-    margin: 20px;
-    padding: 40px 20px;
-    border-radius: 40px;
     background-color: #A15BB2;
     box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     text-align: center;
-    flex-direction: column;
+    padding: 60px 0;
 }
 
-#card-3{
-     width: 300px;
+#card-2 {
+    width: 300px;
+    height: 200px;
     margin: 20px;
     padding: 40px 20px;
     border-radius: 40px;
+
     background-color: #A15BB2;
     box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     text-align: center;
-    flex-direction: column;
+    padding: 60px 0;
+}
+
+#card-3 {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+
+    background-color: #A15BB2;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+#card-1 svg,
+#card-2 svg {
+    height: 50px;
+    width: 50px;
+}
+
+#card-3 svg {
+    height: 60px;
+    width: 60px;
+}
+
+#card-1 p,
+#card-2 p,
+#card-3 p {
+    font-family: "Recursive", sans-linear;
+    font-size: 25px;
+}
+
+.header-container-grid img {
+    height: 500px;
+    width: 500px;
+    margin: 0;
+}
+
+#card-01 {
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #9EC867;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+#card-02 {
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    background-color: #9EC867;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+.card-02 img{
+    width: 10px;
+    height: 10px;
+}
+
+#card-03 {
+    width: 250px;
+    height: 400px;
+
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+
+    background-color: #9EC867;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+#card-04 {
+    width: 250px;
+    height: 400px;
+
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+
+    background-color: #9EC867;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+#card-05 {
+    width: 250px;
+    height: 400px;
+    
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+
+    background-color: #9EC867;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+#card-06 {
+    width: 250px;
+     height: 400px;
+
+    margin: 20px;
+    padding: 40px 20px;
+    border-radius: 40px;
+
+    background-color: #9EC867;
+    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+    padding: 60px 0;
+}
+
+.quality-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
