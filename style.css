@@ -37,7 +37,7 @@ body {
     color: var(--texto-escuro);
 }
 
-/* header ----------------------- */
+/* ---------------------------menu ----------------------- */
 
 header img {
     width: 253px;
@@ -78,6 +78,8 @@ header.espacolaterais {
     color: #FFFFFF;
 }
 
+/* -----------------------------------sobre nossos produtos----------------------------------------- */
+
 #card-1 {
     width: 300px;
     height: 200px;
@@ -87,7 +89,7 @@ header.espacolaterais {
 
     background-color: #A15BB2;
     text-align: center;
-    
+
 }
 
 #card-2 {
@@ -99,7 +101,7 @@ header.espacolaterais {
 
     background-color: #A15BB2;
     text-align: center;
-   
+
 }
 
 #card-3 {
@@ -111,24 +113,14 @@ header.espacolaterais {
 
     background-color: #A15BB2;
     text-align: center;
-   
+
 }
 
-.sobre-imagens{
-    display: flex;
-}
-
-.sobre-a-ekooby-02{
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
-.sobre-imagens img{
-     flex: 0 0 300px;
-    border-radius: 20px 20px;
-    overflow: hidden;
-    width: 300px;
-    height: 100%;
+#card-1 p,
+#card-2 p,
+#card-3 p {
+    font-family: "Recursive", sans-linear;
+    font-size: 25px;
 }
 
 #card-1 svg,
@@ -142,18 +134,15 @@ header.espacolaterais {
     width: 60px;
 }
 
-#card-1 p,
-#card-2 p,
-#card-3 p {
-    font-family: "Recursive", sans-linear;
-    font-size: 25px;
+.quality-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px;
 }
 
-.header-container-grid img {
-    height: 500px;
-    width: 500px;
-    margin: 0;
-}
+/* ------------------------------------------nossos produtos----------------------------------------- */
+
 
 #card-01 {
     width: 250px;
@@ -235,6 +224,10 @@ header.espacolaterais {
 
 
 
+
+
+
+
 .quality-card {
     display: flex;
     align-items: center;
@@ -261,53 +254,122 @@ header.espacolaterais {
     flex-wrap: wrap;
 }
 
+
+
+/* --------------------------------sobre a ekooby---------------------------------- */
+
+.sobre-imagens {
+    display: flex;
+}
+
+.sobre-a-ekooby-02 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sobre-imagens img {
+    flex: 0 0 300px;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    width: 300px;
+    height: 100%;
+}
+
+.header-container-grid img {
+    height: 500px;
+    width: 500px;
+    margin: 0;
+}
+
+/* ---------------------------------titulos--------------------------- */
+
 .titulo-produtos h2 {
 
     font-family: "Recursive", sans-linear-bold;
     font-size: 30px;
     font-weight: 600;
-    
+
     text-align: center;
     border-radius: 20px;
     background-color: #a15bb276;
-   padding: 10px 18px;
+    padding: 10px 18px;
+
+    height: 60px;
+    width: 400px;
+    margin-left: 560px;
+    margin-top: 50px;
 }
 
 .titulo-verde-01 h2 {
     font-family: "Recursive", sans-linear-bold;
     font-size: 30px;
+    font-weight: 600;
 
-    width: 220px;
-    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    
+    padding: 10px 18px;
 
-    margin: 60px 600px;
-    padding: center;
-    align-items: center;
-
-    border-radius: 40px;
-
+    height: 60px;
+    width: 350px;
+    /* margin-left: 10px; */
     background-color: #9ec86764;
-
-    padding: 60px 0;
+    margin-top: 50px;
 }
 
-.titulo-verde h2 {
-    font-family: "Recursive", sans-linear-bold;
+.titulo-verde-02 h2 {
+   
+     font-family: "Recursive", sans-linear-bold;
     font-size: 30px;
+    font-weight: 600;
 
-    width: 250px;
-    height: auto;
+    text-align: center;
+    border-radius: 20px;
+   
+    padding: 10px 18px;
 
-    margin: 60px 600px;
-    padding: center;
-    align-items: center;
-
-    border-radius: 40px;
-
+    height: 60px;
+    width: 350px;
+    margin-left: 560px;
+    margin-top: 0;
     background-color: #9ec86764;
 
-    padding: 60px 0;
 }
+
+.Feedback-title{
+       font-family: "Recursive", sans-linear-bold;
+    font-size: 30px;
+    font-weight: 600;
+
+    text-align: center;
+    border-radius: 20px;
+    background-color: #a15bb276;
+    padding: 10px 18px;
+
+    height: 60px;
+    width: 200px;
+    margin-left: 660px; 
+    margin-top: 60px;
+
+}
+
+.titulo{
+          font-family: "Recursive", sans-linear-bold;
+    font-size: 10px;
+    font-weight: 600;
+
+    text-align: center;
+    border-radius: 20px;
+    background-color: #a15bb276;
+    padding: 10px 18px;
+
+    height: 60px;
+    width: 700px;
+    margin-left: 440px; 
+    margin-top: 40px; 
+}
+
+/* --------------------------- */
 
 .sobre-a-ekooby-02 p {
     margin: 50px 50px;
@@ -330,7 +392,7 @@ header.espacolaterais {
 }
 
 
-/* --- Seção de Feedback --- */
+/* ------------------------------------- Seção de Feedback --------------------------------------- */
 .feedback-container {
     display: flex;
     gap: 30px;
@@ -389,7 +451,7 @@ header.espacolaterais {
     color: #777;
 }
 
-/* --- Seção de Benefícios --- */
+/* --------------------------------------------- Seção de Benefícios ------------------------------------------------------- */
 .beneficios-dos-produtos .titulo {
     text-align: center;
     margin-bottom: 30px;
@@ -446,7 +508,6 @@ header.espacolaterais {
     width: 2000px;
 }
 
-/* Classe unificada para o texto dos produtos */
 .product-info ul {
 
     margin: 20px auto;
@@ -473,120 +534,116 @@ header.espacolaterais {
     color: var(--texto-escuro, #666);
 }
 
-/* Estilos responsivos (Media Queries) */
-@media (max-width: 1000px) {
-    .feedback-card {
-        width: calc(100% - 30px);
-    }
-}
+/* --------------------------------------------------------------- */
 
-@media (max-width: 768px) {
-    .feedback-container {
-        padding: 10px;
-        gap: 20px;
-    }
 
-    .feedback-card {
-        flex-direction: column;
-        /* Empilha imagem e texto em telas pequenas */
-        height: auto;
-        /* Altura automática para se adaptar ao conteúdo */
-        text-align: center;
-    }
-
-    .feedback-img img {
-        margin-bottom: 10px;
-    }
-
-    .beneficios-content {
-        flex-direction: column;
-        /* Empilha os produtos em telas pequenas */
-        align-items: center;
-    }
-
-    .serum,
-    .body-cream,
-    .fixador-de-maquiagem {
-        max-width: 90%;
-        /* Ocupa a maior parte da largura */
-    }
-}
 
 /* ---------------------------------contato---------------------------------------------- */
 
 
-#contato {
-    text-align: center;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-}
 
-#contato .titulo {
-    justify-content: center;
-    margin-bottom: 55px;
-}
-
-#contato h2 {
-    margin-left: 5px;
-}
-
-#contato form {
-    width: 90%;
-    max-width: 980px;
-
-    margin: 0 auto;
-    padding: 60px 0;
-
+.questionnaire-section {
+    font-family: "Recursive", sans-linear; 
+    padding: 40px 20px; 
     display: flex;
     flex-direction: column;
-    align-items: center;
-
-    border-radius: 40px;
-    background-color: var(--contato);
-    border: solid 3px var(--roxo-pixelV);
-
-    color: var(--preto);
-    font-family: "recursive", sans-linear;
-    font-size: 17px;
+    align-items: center; 
 }
 
-.campo {
-    width: 60%;
-
+.questionnaire-header {
     text-align: left;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    margin-bottom: 50px;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
 }
 
-.campo-descricao {
-    width: 60%;
-
-    text-align: left;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    margin-bottom: 30px;
+.questionnaire-header h1 {
+    font-size: 2.2em;
+    color: #333; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
 }
 
-.campo input {
-    height: 40px;
+.questionnaire-header p {
+    font-size: 1.1em; 
+    color: #555; 
+    margin-bottom: 0;
+}
 
-    color: var(--preto);
-    background-color: var(--branco);
+/* Estilos para o Contêiner do Formulário */
+.questionnaire-form-container {
+    background: linear-gradient(135deg, #E8D0EE, #DCCCEE); 
+    border-radius: 20px; 
+    padding: 30px;
+    width: 100%;
+    max-width: 500px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
 
+.questionnaire-form {
+    width: 100%; 
+}
+
+
+.input-field-wrapper {
+    margin-bottom: 20px; 
+    width: 100%;
+}
+
+.questionnaire-form input[type="text"],
+.questionnaire-form input[type="email"] {
+    width: 100%;
+    padding: 15px 20px; 
+    border: none; 
+    border-radius: 12px; 
+    background-color: #EFEAF0; 
+    font-size: 1em;
+    color: #333;
+    outline: none; 
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); 
+}
+
+.questionnaire-form input::placeholder {
+    color: #888; 
+}
+
+
+.submit-button {
+    width: 60%; 
+    padding: 15px 30px;
+    background-color: #EFEAF0; 
+    color: #555; 
     border: none;
-    border-radius: 4px;
-
-    text-indent: 10px;
-
-    outline: none;
+    border-radius: 12px; 
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase; 
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px; 
+    align-self: center; 
+    margin-bottom: 20px;
+    margin-left: 80px;
 }
+
+.submit-button:hover {
+    background-color: #dcdcdc; /* Um pouco mais escuro ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada ao passar o mouse */
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
 
 .campo-descricao textarea {
     color: var(--preto);
@@ -599,51 +656,6 @@ header.espacolaterais {
     resize: none;
 }
 
-.campo-lable,
-.campo-descricao label {
-    margin-bottom: 15px;
-}
-
-.campo input,
-.campo-descricao textarea {
-    font-family: "Recursive", sans-lineas;
-    font-size: 17px;
-}
-
-.campo input::placeholder,
-.campo-descricao textarea::placeholder {
-    color: #a0a0a0;
-}
-
-.campo input:focus,
-.campo-descricao textarea:focus {
-    outline: 2px solid var(--verde-PixelV);
-}
-
-#contato form button {
-    height: 40px;
-    width: 60%;
-
-    background-color: var(--roxo-pixelV);
-    color: var(--branco);
-
-    border: none;
-    border-radius: 4px;
-
-    font-size: 17px;
-    font-family: "Recursive", sans-linear;
-    font-weight: 700;
-
-    text-transform: uppercase;
-
-    cursor: pointer;
-
-    transition: background-color 500ms;
-}
-
-#contato form button:hover {
-    background-color: var(--verde-PixelV);
-}
 
 .contato-formulario {
     width: 500px;
@@ -658,6 +670,344 @@ header.espacolaterais {
     padding: 60px 0;
 }
 
-.contato-formulario h2 {
-    margin: 20px;
+/* ------------------------------------------footer------------------------------------ */
+
+.main-footer {
+    background-color: #000;
+    color: var(--branco);
+    padding: 30px 20px;
+    font-family: "Recursive", sans-linear;
 }
+
+
+.footer-volte-ao-topo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-volte-ao-topo a {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.footer-volte-ao-topo a:hover {
+    color: var(--roxo-pixelV);
+}
+
+
+.footer-divider {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 20px 0;
+}
+
+
+.footer-content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 5%;
+    margin-bottom: 30px;
+}
+
+.footer-column h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/*------------------------ Redes Sociais------------------------------ */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5em;
+}
+
+.social-icons a {
+    color: var(--branco);
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--roxo-pixelV);
+}
+
+
+.footer-links li {
+    margin-bottom: 8px;
+    /* Espaço entre os itens da lista */
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--roxo-pixelV);
+}
+
+/*------------------------------------- Fale Conosco-------------------------------------------- */
+
+
+.whatsapp-contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.whatsapp-contact i {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.whatsapp-contact a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s ease;
+}
+
+.whatsapp-contact a:hover {
+    color: var(--roxo-pixelV);
+}
+
+.whatsapp-hours {
+    font-size: 0.8em;
+    opacity: 0.8;
+    margin-top: 0;
+}
+
+/* ----------------------------------------Formas de Pagamento------------------------------------------------------------- */
+.footer-payment {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.footer-payment h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.payment-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.payment-icons img {
+    height: 25px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+
+/*---------------------------------------- Responsividade Básica------------------------- */
+ 
+@media screen and (max-width: 1024px) {
+
+    .titulo,
+    .titulo h2 {
+        font-size: 26px;
+        font-family: "Recursive", sans-linear-bold;
+    }
+
+    .menu {
+        justify-content: space-evenly;
+    }
+
+    .titulo span {
+        line-height: 45px;
+    }
+
+    #sobre p {
+        font-size: 16px;
+    }
+
+    #servicos .card svg {
+        height: 55px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    header{
+        position: relative;
+    }
+
+    header button{
+        width: 50px;
+        background: none;
+        border: none;
+
+        cursor: pointer;
+        display: unset;
+    }
+
+    header svg{
+        fill: var(--branco);
+    }
+
+    nav.menu{
+        height: 500px;
+        width: 350px;
+
+        padding: 0px 30px;
+
+        flex-direction:column ;
+        justify-content: space-around;
+        background-color: #0000009b;
+
+        position: absolute;
+        right: 0px;
+        top: 165px;
+        z-index: 1;
+    }
+
+    .conteudo-banner img{
+        display: none;
+    }
+ }
+
+ #icone-barras,
+#icone-x {
+    display: none;
+}
+
+.menu-fechado {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .footer-content-grid {
+        grid-template-columns: 1fr;
+       
+        text-align: center;
+     
+
+    .social-icons {
+        justify-content: center;
+       
+    }
+
+    .whatsapp-contact {
+        justify-content: center;
+       
+    }
+}
+}
+
+
+
+@media (max-width: 600px) {
+    .questionnaire-header h1 {
+        font-size: 1.8em;
+    }
+    .questionnaire-header p {
+        font-size: 1em;
+    }
+    .questionnaire-form-container {
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .questionnaire-form input[type="text"],
+    .questionnaire-form input[type="email"] {
+        padding: 12px 15px;
+    }
+    .submit-button {
+        width: 90%; 
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .questionnaire-header {
+        text-align: center; 
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .feedback-card {
+        width: calc(100% - 30px);
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback-container {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .feedback-card {
+        flex-direction: column;
+      
+        height: auto;
+      
+        text-align: center;
+    }
+
+    .feedback-img img {
+        margin-bottom: 10px;
+    }
+
+    .beneficios-content {
+        flex-direction: column;
+      
+        align-items: center;
+    }
+
+    .serum,
+    .body-cream,
+    .fixador-de-maquiagem {
+        max-width: 90%;
+      
+}
+}
+
+
+@media (max-width: 992px) {
+    .cards-container {
+     
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 576px) {
+    .cards-container {
+       
+        grid-template-columns: 1fr; 
+    }
+    .card {
+        padding: 15px;
+    }
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
