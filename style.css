@@ -307,7 +307,7 @@ header.espacolaterais {
 
     text-align: center;
     border-radius: 20px;
-    
+
     padding: 10px 18px;
 
     height: 60px;
@@ -318,14 +318,14 @@ header.espacolaterais {
 }
 
 .titulo-verde-02 h2 {
-   
-     font-family: "Recursive", sans-linear-bold;
+
+    font-family: "Recursive", sans-linear-bold;
     font-size: 30px;
     font-weight: 600;
 
     text-align: center;
     border-radius: 20px;
-   
+
     padding: 10px 18px;
 
     height: 60px;
@@ -336,8 +336,8 @@ header.espacolaterais {
 
 }
 
-.Feedback-title{
-       font-family: "Recursive", sans-linear-bold;
+.Feedback-title {
+    font-family: "Recursive", sans-linear-bold;
     font-size: 30px;
     font-weight: 600;
 
@@ -348,13 +348,13 @@ header.espacolaterais {
 
     height: 60px;
     width: 200px;
-    margin-left: 660px; 
+    margin-left: 660px;
     margin-top: 60px;
 
 }
 
-.titulo{
-          font-family: "Recursive", sans-linear-bold;
+.titulo {
+    font-family: "Recursive", sans-linear-bold;
     font-size: 10px;
     font-weight: 600;
 
@@ -365,8 +365,8 @@ header.espacolaterais {
 
     height: 60px;
     width: 700px;
-    margin-left: 440px; 
-    margin-top: 40px; 
+    margin-left: 440px;
+    margin-top: 40px;
 }
 
 /* --------------------------- */
@@ -543,11 +543,11 @@ header.espacolaterais {
 
 
 .questionnaire-section {
-    font-family: "Recursive", sans-linear; 
-    padding: 40px 20px; 
+    font-family: "Recursive", sans-linear;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .questionnaire-header {
@@ -559,80 +559,82 @@ header.espacolaterais {
 
 .questionnaire-header h1 {
     font-size: 2.2em;
-    color: #333; 
-    margin-bottom: 8px; 
-    font-weight: bold; 
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .questionnaire-header p {
-    font-size: 1.1em; 
-    color: #555; 
+    font-size: 1.1em;
+    color: #555;
     margin-bottom: 0;
 }
 
 /* Estilos para o Contêiner do Formulário */
 .questionnaire-form-container {
-    background: linear-gradient(135deg, #E8D0EE, #DCCCEE); 
-    border-radius: 20px; 
+    background: linear-gradient(135deg, #E8D0EE, #DCCCEE);
+    border-radius: 20px;
     padding: 30px;
     width: 100%;
-    max-width: 500px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 .questionnaire-form {
-    width: 100%; 
+    width: 100%;
 }
 
 
 .input-field-wrapper {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     width: 100%;
 }
 
 .questionnaire-form input[type="text"],
 .questionnaire-form input[type="email"] {
     width: 100%;
-    padding: 15px 20px; 
-    border: none; 
-    border-radius: 12px; 
-    background-color: #EFEAF0; 
+    padding: 15px 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #EFEAF0;
     font-size: 1em;
     color: #333;
-    outline: none; 
-    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); 
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .questionnaire-form input::placeholder {
-    color: #888; 
+    color: #888;
 }
 
 
 .submit-button {
-    width: 60%; 
+    width: 60%;
     padding: 15px 30px;
-    background-color: #EFEAF0; 
-    color: #555; 
+    background-color: #EFEAF0;
+    color: #555;
     border: none;
-    border-radius: 12px; 
+    border-radius: 12px;
     font-size: 1.1em;
     font-weight: bold;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 10px; 
-    align-self: center; 
+    margin-top: 10px;
+    align-self: center;
     margin-bottom: 20px;
     margin-left: 80px;
 }
 
 .submit-button:hover {
-    background-color: #dcdcdc; /* Um pouco mais escuro ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada ao passar o mouse */
+    background-color: #dcdcdc;
+    /* Um pouco mais escuro ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    /* Sombra mais pronunciada ao passar o mouse */
 }
 
 
@@ -816,139 +818,96 @@ header.espacolaterais {
 }
 
 /*---------------------------------------- Responsividade Básica------------------------- */
- 
-@media screen and (max-width: 1024px) {
 
-    .titulo,
-    .titulo h2 {
-        font-size: 26px;
+
+@media screen and (max-width: 1024) {
+    .menu a {
+        font-size: 20px;
+        text-decoration: underline transparent;
+    }
+}
+
+@media screen {}
+
+.titulo-produtos h2 {
+    font-family: "Recursive", sans-linear-bold;
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #a15bb276;
+    padding: 10px 18px;
+    height: 40px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+@media screen {
+    .titulo-verde-01 h2 {
         font-family: "Recursive", sans-linear-bold;
-    }
-
-    .menu {
-        justify-content: space-evenly;
-    }
-
-    .titulo span {
-        line-height: 45px;
-    }
-
-    #sobre p {
-        font-size: 16px;
-    }
-
-    #servicos .card svg {
-        height: 55px;
-    }
-}
-
-
-
-
-@media screen and (max-width: 768px) {
-    header{
-        position: relative;
-    }
-
-    header button{
-        width: 50px;
-        background: none;
-        border: none;
-
-        cursor: pointer;
-        display: unset;
-    }
-
-    header svg{
-        fill: var(--branco);
-    }
-
-    nav.menu{
-        height: 500px;
-        width: 350px;
-
-        padding: 0px 30px;
-
-        flex-direction:column ;
-        justify-content: space-around;
-        background-color: #0000009b;
-
-        position: absolute;
-        right: 0px;
-        top: 165px;
-        z-index: 1;
-    }
-
-    .conteudo-banner img{
-        display: none;
-    }
- }
-
- #icone-barras,
-#icone-x {
-    display: none;
-}
-
-.menu-fechado {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-    .footer-content-grid {
-        grid-template-columns: 1fr;
-       
+        font-size: 20px;
+        font-weight: 10px;
         text-align: center;
-     
-
-    .social-icons {
-        justify-content: center;
-       
+        border-radius: 20px;
+        padding: 10px 18px;
+        height: 40px;
+        width: 300px;
+        background-color: #9ec86764;
+        margin-left: 15px;
     }
 
-    .whatsapp-contact {
-        justify-content: center;
-       
-    }
-}
 }
 
-
-
-@media (max-width: 600px) {
-    .questionnaire-header h1 {
-        font-size: 1.8em;
-    }
-    .questionnaire-header p {
-        font-size: 1em;
-    }
-    .questionnaire-form-container {
-        padding: 20px;
-        border-radius: 15px;
-    }
-    .questionnaire-form input[type="text"],
-    .questionnaire-form input[type="email"] {
-        padding: 12px 15px;
-    }
-    .submit-button {
-        width: 90%; 
-        padding: 12px 20px;
+@media screen {
+    .quality-card {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px;
+    flex-direction: column;
+    margin-left: 5%;
     }
 }
 
-@media (max-width: 400px) {
-    .questionnaire-header {
-        text-align: center; 
+@media screen {
+    .titulo-verde-02 h2{
+    font-family: "Recursive", sans-linear-bold;
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #9ec86764;
+    padding: 10px 18px;
+    height: 40px;
+    width: 300px;
+    margin-left: 95px;
+    }
+
+}
+
+@media screen {
+    .Feedback-title {
+        font-family: "Recursive", sans-linear-bold;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #a15bb276;
+    padding: 10px 18px;
+    height: 60px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 40px;
     }
 }
 
+@media screen {
+     #baneer-compilado img{
+        height: auto;
+    }
+    
+}
 
 @media (max-width: 1000px) {
     .feedback-card {
@@ -970,11 +929,79 @@ header.espacolaterais {
         text-align: center;
     }
 
-    .feedback-img img {
-        margin-bottom: 10px;
+
+.sobre-imagens {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    margin-top: 50px; 
+}
+
+
+.sobre-a-ekooby-02 p {
+    margin: 0; /* Remove margens fixas, o gap do flexbox irá controlar */
+    font-size: 20px;
+    font-family: "Recursive", sans-linear-bold;
+    text-align: justify; 
+    max-width: 700px; /* Limita a largura do parágrafo para melhor leitura em telas largas */
+    flex: 1 1 auto; 
+    min-width: 300px; 
+}
+
+@media (max-width: 992px) {
+   
+    .sobre-a-ekooby-02 p {
+        font-size: 18px; 
+        max-width: 90%; 
+}
+}
+
+
+@media (max-width: 600px) {
+    .sobre-a-ekooby-02 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 0 15px; 
+    }
     }
 
-    .beneficios-content {
+    .titulo-verde-02 {
+        font-size: 22px; 
+        height: auto; 
+        padding: 10px 15px;
+        width: 90%; 
+        max-width: 280px;
+    }
+
+    .sobre-imagens {
+        gap: 15px;
+    }
+
+    .sobre-imagens img {
+        width: 95%; 
+        height: auto;
+    }
+
+    .sobre-a-ekooby-02 p {
+        font-size: 16px; 
+        max-width: 100%; 
+    }
+}
+
+
+
+#banner-compilado img {
+    width: 1520px; 
+    height: auto;
+    justify
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+
+    /* .beneficios-content {
         flex-direction: column;
       
         align-items: center;
@@ -1004,10 +1031,6 @@ header.espacolaterais {
     .card {
         padding: 15px;
     }
-}
-
-
-
+} */ */
 
 /* ------------------------------------------------------------------------------------------------------------- */
-
