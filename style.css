@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Recursive";
+    src: url(./fonte/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
+}
+
 .espacolaterais {
     max-width: 1400px;
     width: 80%;
@@ -81,9 +86,8 @@ header.espacolaterais {
     border-radius: 40px;
 
     background-color: #A15BB2;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     text-align: center;
-    padding: 60px 0;
+    
 }
 
 #card-2 {
@@ -94,9 +98,8 @@ header.espacolaterais {
     border-radius: 40px;
 
     background-color: #A15BB2;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     text-align: center;
-    padding: 60px 0;
+   
 }
 
 #card-3 {
@@ -107,8 +110,25 @@ header.espacolaterais {
     border-radius: 40px;
 
     background-color: #A15BB2;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
-    padding: 60px 0;
+    text-align: center;
+   
+}
+
+.sobre-imagens{
+    display: flex;
+}
+
+.sobre-a-ekooby-02{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sobre-imagens img{
+     flex: 0 0 300px;
+    border-radius: 20px 20px;
+    overflow: hidden;
+    width: 300px;
+    height: 100%;
 }
 
 #card-1 svg,
@@ -138,26 +158,29 @@ header.espacolaterais {
 #card-01 {
     width: 250px;
     height: 400px;
+
     margin: 20px;
     padding: 40px 20px;
     border-radius: 40px;
+
     background-color: #9EC867;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     padding: 60px 0;
 }
 
 #card-02 {
     width: 250px;
     height: 400px;
+
     margin: 20px;
     padding: 40px 20px;
     border-radius: 40px;
+
     background-color: #9EC867;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
+
     padding: 60px 0;
 }
 
-.card-02 img{
+.card-02 img {
     width: 10px;
     height: 10px;
 }
@@ -171,7 +194,6 @@ header.espacolaterais {
     border-radius: 40px;
 
     background-color: #9EC867;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     padding: 60px 0;
 }
 
@@ -184,38 +206,458 @@ header.espacolaterais {
     border-radius: 40px;
 
     background-color: #9EC867;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     padding: 60px 0;
 }
 
 #card-05 {
     width: 250px;
     height: 400px;
-    
+
     margin: 20px;
     padding: 40px 20px;
     border-radius: 40px;
 
     background-color: #9EC867;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     padding: 60px 0;
 }
 
 #card-06 {
     width: 250px;
-     height: 400px;
+    height: 400px;
 
     margin: 20px;
     padding: 40px 20px;
     border-radius: 40px;
 
     background-color: #9EC867;
-    box-shadow: 0 4px 8px rgba(rgb(16, 194, 125), green, blue, alpha);
     padding: 60px 0;
 }
+
+
 
 .quality-card {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 50px 10px;
+}
+
+.product-gallery-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-wrap: wrap; */
+
+    position: relative;
+    gap: 20px;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 250px;
+}
+
+.product-gallery-section {
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.titulo-produtos h2 {
+
+    font-family: "Recursive", sans-linear-bold;
+    font-size: 30px;
+    font-weight: 600;
+    
+    text-align: center;
+    border-radius: 20px;
+    background-color: #a15bb276;
+   padding: 10px 18px;
+}
+
+.titulo-verde-01 h2 {
+    font-family: "Recursive", sans-linear-bold;
+    font-size: 30px;
+
+    width: 220px;
+    height: auto;
+
+    margin: 60px 600px;
+    padding: center;
+    align-items: center;
+
+    border-radius: 40px;
+
+    background-color: #9ec86764;
+
+    padding: 60px 0;
+}
+
+.titulo-verde h2 {
+    font-family: "Recursive", sans-linear-bold;
+    font-size: 30px;
+
+    width: 250px;
+    height: auto;
+
+    margin: 60px 600px;
+    padding: center;
+    align-items: center;
+
+    border-radius: 40px;
+
+    background-color: #9ec86764;
+
+    padding: 60px 0;
+}
+
+.sobre-a-ekooby-02 p {
+    margin: 50px 50px;
+    font-size: 20px;
+    font-family: "Recursive", sans-linear-bold;
+}
+
+#banner-compilado img {
+    width: 1520px;
+    height: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens-sobre-ekooby {
+    flex: 0 0 300px;
+    border-radius: 20px 20px;
+    overflow: hidden;
+}
+
+
+/* --- Seção de Feedback --- */
+.feedback-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f0f6f2;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.feedback-card {
+    display: flex;
+    background: white;
+    min-height: 200px;
+    width: calc(50% - 15px);
+    max-width: 600px;
+
+    border-radius: 15px;
+
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.feedback-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--verde-fosco);
+    flex-shrink: 0;
+}
+
+
+.Feedback-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.feedback-texto h3 {
+
+    font-weight: 700;
+
+    margin: 0;
+    color: #2d7a2d;
+    font-family: "Recursive", sans-serif;
+    /* Usando sans-serif como fallback */
+}
+
+.feedback-texto span {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* --- Seção de Benefícios --- */
+.beneficios-dos-produtos .titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.beneficios-dos-produtos h2 {
+    font-size: 40px;
+    color: var(--texto-escuro, #333);
+    font-family: "Recursive", sans-linear-bold;
+}
+
+.faixa-fundo img {
+    width: 100%;
+    height: auto;
+    /* Mantém a proporção */
+    display: block;
+    margin-bottom: 30px;
+}
+
+.beneficios-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.serum,
+.body-cream,
+.fixador-de-maquiagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 350px;
+    flex: 1 1 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card-serum img,
+.card-body-cream img,
+.card-fixador img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.faixa-fundo img {
+    height: 250px;
+    width: 2000px;
+}
+
+/* Classe unificada para o texto dos produtos */
+.product-info ul {
+
+    margin: 20px auto;
+    padding: 20px;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 40px;
+    background-color: #a15bb286;
+    box-sizing: border-box;
+    color: var(--texto-escuro);
+}
+
+.product-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: var(--texto-escuro, #333);
+}
+
+.product-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--texto-escuro, #666);
+}
+
+/* Estilos responsivos (Media Queries) */
+@media (max-width: 1000px) {
+    .feedback-card {
+        width: calc(100% - 30px);
+    }
+}
+
+@media (max-width: 768px) {
+    .feedback-container {
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .feedback-card {
+        flex-direction: column;
+        /* Empilha imagem e texto em telas pequenas */
+        height: auto;
+        /* Altura automática para se adaptar ao conteúdo */
+        text-align: center;
+    }
+
+    .feedback-img img {
+        margin-bottom: 10px;
+    }
+
+    .beneficios-content {
+        flex-direction: column;
+        /* Empilha os produtos em telas pequenas */
+        align-items: center;
+    }
+
+    .serum,
+    .body-cream,
+    .fixador-de-maquiagem {
+        max-width: 90%;
+        /* Ocupa a maior parte da largura */
+    }
+}
+
+/* ---------------------------------contato---------------------------------------------- */
+
+
+#contato {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato .titulo {
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+#contato h2 {
+    margin-left: 5px;
+}
+
+#contato form {
+    width: 90%;
+    max-width: 980px;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 40px;
+    background-color: var(--contato);
+    border: solid 3px var(--roxo-pixelV);
+
+    color: var(--preto);
+    font-family: "recursive", sans-linear;
+    font-size: 17px;
+}
+
+.campo {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.campo-descricao {
+    width: 60%;
+
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.campo input {
+    height: 40px;
+
+    color: var(--preto);
+    background-color: var(--branco);
+
+    border: none;
+    border-radius: 4px;
+
+    text-indent: 10px;
+
+    outline: none;
+}
+
+.campo-descricao textarea {
+    color: var(--preto);
+    border-radius: 4px;
+
+    outline: none;
+
+    padding: 10px;
+
+    resize: none;
+}
+
+.campo-lable,
+.campo-descricao label {
+    margin-bottom: 15px;
+}
+
+.campo input,
+.campo-descricao textarea {
+    font-family: "Recursive", sans-lineas;
+    font-size: 17px;
+}
+
+.campo input::placeholder,
+.campo-descricao textarea::placeholder {
+    color: #a0a0a0;
+}
+
+.campo input:focus,
+.campo-descricao textarea:focus {
+    outline: 2px solid var(--verde-PixelV);
+}
+
+#contato form button {
+    height: 40px;
+    width: 60%;
+
+    background-color: var(--roxo-pixelV);
+    color: var(--branco);
+
+    border: none;
+    border-radius: 4px;
+
+    font-size: 17px;
+    font-family: "Recursive", sans-linear;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: background-color 500ms;
+}
+
+#contato form button:hover {
+    background-color: var(--verde-PixelV);
+}
+
+.contato-formulario {
+    width: 500px;
+    height: 400px;
+
+    margin: 50px;
+    padding: 40px 20px;
+    border-radius: 40px;
+    align-items: center;
+
+    background-color: #a15bb29f;
+    padding: 60px 0;
+}
+
+.contato-formulario h2 {
+    margin: 20px;
 }
