@@ -638,14 +638,7 @@ header.espacolaterais {
 }
 
 
-
-
-
-
-
-
-
-/* ---------------------------------------------------------------- */
+ /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 
 .campo-descricao textarea {
     color: var(--preto);
@@ -744,7 +737,7 @@ header.espacolaterais {
 
 .footer-links li {
     margin-bottom: 8px;
-    /* Espaço entre os itens da lista */
+
 }
 
 .footer-links a {
@@ -820,15 +813,14 @@ header.espacolaterais {
 /*---------------------------------------- Responsividade Básica------------------------- */
 
 
-@media screen and (max-width: 1024) {
+/* @media screen and (max-width: 1024px) {
     .menu a {
         font-size: 20px;
         text-decoration: underline transparent;
     }
 }
 
-@media screen {}
-
+@media screen {
 .titulo-produtos h2 {
     font-family: "Recursive", sans-linear-bold;
     font-size: 20px;
@@ -841,6 +833,7 @@ header.espacolaterais {
     width: 300px;
     margin-left: 15px;
 }
+
 
 @media screen {
     .titulo-verde-01 h2 {
@@ -941,11 +934,11 @@ header.espacolaterais {
 
 
 .sobre-a-ekooby-02 p {
-    margin: 0; /* Remove margens fixas, o gap do flexbox irá controlar */
+    margin: 0; 
     font-size: 20px;
     font-family: "Recursive", sans-linear-bold;
     text-align: justify; 
-    max-width: 700px; /* Limita a largura do parágrafo para melhor leitura em telas largas */
+    max-width: 700px; 
     flex: 1 1 auto; 
     min-width: 300px; 
 }
@@ -989,48 +982,12 @@ header.espacolaterais {
         max-width: 100%; 
     }
 }
+} */
 
 
 
 #banner-compilado img {
     width: 1520px; 
     height: auto;
-    justify
-/* ------------------------------------------------------------------------------------------------------- */
-
-
-
-
-    /* .beneficios-content {
-        flex-direction: column;
-      
-        align-items: center;
     }
-
-    .serum,
-    .body-cream,
-    .fixador-de-maquiagem {
-        max-width: 90%;
-      
-}
-}
-
-
-@media (max-width: 992px) {
-    .cards-container {
-     
-        grid-template-columns: repeat(2, 1fr); 
-    }
-}
-
-@media (max-width: 576px) {
-    .cards-container {
-       
-        grid-template-columns: 1fr; 
-    }
-    .card {
-        padding: 15px;
-    }
-} */ */
-
-/* ------------------------------------------------------------------------------------------------------------- */
+    
